@@ -1,4 +1,5 @@
-# RansomShield
+
+
 <div align="center">
 
 # 🛡️ RansomShield
@@ -33,9 +34,9 @@ STEP 1: Upload your video by dragging it into this README file
 STEP 2 (backup): also drop the raw file at docs/demo.mp4
 -->
 
-https://drive.google.com/file/d/1ZesgDgXgHIHRhoC9lsAGr_Wp4fAlZs5-/view?usp=sharing
+https://github.com/user-attachments/assets/PASTE-VIDEO-ASSET-ID-HERE
 
-**[▶ Demo](#-demo-video)** · **[🏗 Architecture](#-how-it-works)** · **[⚡ Quick Start](#-quick-start)** · **[🖼 Gallery](#-gallery)**
+**[▶ 60-second demo](#-demo-video)** · **[🏗 Architecture](#-how-it-works)** · **[⚡ Quick Start](#-quick-start)** · **[🖼 Gallery](#-gallery)**
 
 </div>
 
@@ -89,6 +90,31 @@ An ECDH-encrypted link to an ESP32 gateway pushes real-time alerts to **Telegram
 </td>
 </tr>
 </table>
+
+---
+
+<div align="center">
+
+### 📟 Live Detection, End to End
+
+<table>
+<tr>
+<td width="33%" align="center">
+<img src="media_pics/Flowcharts_Circuit_Misc/Hardware_Setup_Labeled.jpeg" width="100%"><br>
+<sub><b>Bench rig</b> — sensors, MCU, ESP32 gateway</sub>
+</td>
+<td width="33%" align="center">
+<img src="media_pics/thingspeak_telegram/thingspeak_fields_5_8.jpeg" width="100%"><br>
+<sub><b>Telemetry spikes</b> as an attack triggers</sub>
+</td>
+<td width="33%" align="center">
+<img src="media_pics/thingspeak_telegram/telegram_anomaly_log.jpeg" width="63%"><br>
+<sub><b>Anomaly score</b> alerted live on Telegram</sub>
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -260,6 +286,11 @@ See results in the [Gallery](#-gallery) below.
 </p>
 <p align="center"><i>Hardware circuit (left) · Pin-to-pin mapping (right)</i></p>
 
+<p align="center">
+<img src="media_pics/Flowcharts_Circuit_Misc/Hardware_Setup_Labeled.jpeg" width="65%">
+</p>
+<p align="center"><i>Numbered bring-up rig — ESP32 gateway (2), ST-Link/UART bridges (3, 11), sensor breakout modules (4, 5, 8, 9, 10, 13, 14), power bank supply (7), and USB/Ethernet interconnects (1, 6, 12)</i></p>
+
 </details>
 
 <details>
@@ -296,7 +327,7 @@ See results in the [Gallery](#-gallery) below.
 
 </details>
 
-<details>
+<details open>
 <summary><b>📡 Live Alerting — ThingSpeak & Telegram</b></summary>
 <br>
 
@@ -307,11 +338,28 @@ See results in the [Gallery](#-gallery) below.
 <p align="center"><i>Live ThingSpeak telemetry dashboards</i></p>
 
 <p align="center">
+<img src="media_pics/thingspeak_telegram/thingspeak_fields_1_4.jpeg" width="80%">
+</p>
+<p align="center"><i>Fields 1–4: USB voltage, current, power, and internal PC acceleration during a live run</i></p>
+
+<p align="center">
+<img src="media_pics/thingspeak_telegram/thingspeak_fields_5_8.jpeg" width="80%">
+</p>
+<p align="center"><i>Fields 5–8: external acceleration, RF signal density, overall internet traffic density, and system temperature — the exfiltration/encryption signature is visible as the step-change partway through each trace</i></p>
+
+<p align="center">
 <img src="media_pics/thingspeak_telegram/telegram_pic.jpeg" width="45%">
 </p>
 <p align="center"><i>Real-time Telegram alert</i></p>
 
+<p align="center">
+<img src="media_pics/thingspeak_telegram/telegram_anomaly_log.jpeg" width="40%">
+</p>
+<p align="center"><i>Anomaly score climbing across five simulated attack cases, then settling back to baseline once parameters normalize — all pushed live to the Telegram bot</i></p>
+
 </details>
+
+> 🟢 **Reading the anomaly log:** each "Case" shows the model's anomaly score ramping up (5% → 92% across Cases 1–5) as ransomware-like behavior intensifies, then dropping back to baseline ("All Parameters Back To Normal") once the triggering condition clears — demonstrating both detection sensitivity and recovery.
 
 > 📌 **Adding new images?** Drop them in the matching `media_pics/` subfolder and reference them the same way — the layout above is designed to stay in sync with that structure.
 

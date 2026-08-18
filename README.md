@@ -33,9 +33,9 @@ STEP 1: Upload your video by dragging it into this README file
 STEP 2 (backup): also drop the raw file at docs/demo.mp4
 -->
 
-https://github.com/user-attachments/assets/PASTE-VIDEO-ASSET-ID-HERE
+https://drive.google.com/file/d/1ZesgDgXgHIHRhoC9lsAGr_Wp4fAlZs5-/view?usp=sharing
 
-**[▶ 60-second demo](#-demo-video)** · **[🏗 Architecture](#-how-it-works)** · **[⚡ Quick Start](#-quick-start)** · **[🖼 Gallery](#-gallery)**
+**[▶ Demo](#-demo-video)** · **[🏗 Architecture](#-how-it-works)** · **[⚡ Quick Start](#-quick-start)** · **[🖼 Gallery](#-gallery)**
 
 </div>
 

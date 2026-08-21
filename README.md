@@ -25,14 +25,6 @@
 
 ### 🎬 Watch it in action
 
-<!--
-STEP 1: Upload your video by dragging it into this README file
-        directly in the GitHub web editor (Add file → Edit → drag & drop).
-        GitHub will auto-generate a link like:
-        https://github.com/user-attachments/assets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
-        Paste that link below, replacing the placeholder.
-STEP 2 (backup): also drop the raw file at docs/demo.mp4
--->
 
 https://drive.google.com/file/d/1ZesgDgXgHIHRhoC9lsAGr_Wp4fAlZs5-/view?usp=drivesdk
 

@@ -100,7 +100,7 @@ An ECDH-encrypted link to an ESP32 gateway pushes real-time alerts to **Telegram
 <table>
 <tr>
 <td width="33%" align="center">
-<img src="media_pics/Flowcharts_Circuit_Misc/Hardware_Setup_Labeled.jpeg" width="100%"><br>
+<img src="media_pics/Flowcharts_Circuit_Misc/Hardware_Circuit.jpeg" width="100%"><br>
 <sub><b>Bench rig</b> — sensors, MCU, ESP32 gateway</sub>
 </td>
 <td width="33%" align="center">

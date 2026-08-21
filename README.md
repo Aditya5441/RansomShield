@@ -279,7 +279,7 @@ See results in the [Gallery](#-gallery) below.
 <p align="center"><i>Hardware circuit (left) · Pin-to-pin mapping (right)</i></p>
 
 <p align="center">
-<p align="center"><i>Numbered bring-up rig — ESP32 gateway (2), ST-Link/UART bridges (3, 11), sensor breakout modules (4, 5, 8, 9, 10, 13, 14), power bank supply (7), and USB/Ethernet interconnects (1, 6, 12)</i></p>
+<p align="center"><i>Numbered bring-up rig — Ethernet module (2), nrf module (3), MPU-6050 (11) , ESP-32 (4) , SI4432 RF Antenna (5) , INA219 (8) , Voltage Module (9) , LIS3DH (10) , STM32WB55RG (13) , Thermistor (14), Power Bank (7), Ethernet Cable (1), USB Cable (6), Ethernet-USB Converter (12)</i></p>
 
 </details>
 
@@ -322,28 +322,16 @@ See results in the [Gallery](#-gallery) below.
 <br>
 
 <p align="center">
+<p align="center"><i>Live ThingSpeak telemetry dashboards</i></p>
 <img src="media_pics/thingspeak_telegram/thingspeak_pic_1.jpeg" width="45%">
+<p align="center"><i>Fields 1–4: USB voltage, current, power, and internal PC acceleration during a live run</i></p>
 <img src="media_pics/thingspeak_telegram/thingspeak_pic_2.jpeg" width="45%">
 </p>
-<p align="center"><i>Live ThingSpeak telemetry dashboards</i></p>
-
-<p align="center">
-<img src="media_pics/thingspeak_telegram/thingspeak_fields_1_4.jpeg" width="80%">
-</p>
-<p align="center"><i>Fields 1–4: USB voltage, current, power, and internal PC acceleration during a live run</i></p>
-
-<p align="center">
-<img src="media_pics/thingspeak_telegram/thingspeak_fields_5_8.jpeg" width="80%">
-</p>
 <p align="center"><i>Fields 5–8: external acceleration, RF signal density, overall internet traffic density, and system temperature — the exfiltration/encryption signature is visible as the step-change partway through each trace</i></p>
-
-<p align="center">
-<img src="media_pics/thingspeak_telegram/telegram_pic.jpeg" width="45%">
-</p>
-<p align="center"><i>Real-time Telegram alert</i></p>
-
 <p align="center">
 <img src="media_pics/thingspeak_telegram/telegram_anomaly_log.jpeg" width="40%">
+</p>
+<p align="center"><i>Real-time Telegram alert</i></p>
 </p>
 <p align="center"><i>Anomaly score climbing across five simulated attack cases, then settling back to baseline once parameters normalize — all pushed live to the Telegram bot</i></p>
 

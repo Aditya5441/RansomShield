@@ -104,11 +104,11 @@ An ECDH-encrypted link to an ESP32 gateway pushes real-time alerts to **Telegram
 <sub><b>Bench rig</b> — sensors, MCU, ESP32 gateway</sub>
 </td>
 <td width="33%" align="center">
-<img src="media_pics/thingspeak_telegram/thingspeak_fields_5_8.jpeg" width="100%"><br>
+<img src="media_pics/thingspeak_telegram/thingspeak_pic_2.jpeg" width="100%"><br>
 <sub><b>Telemetry spikes</b> as an attack triggers</sub>
 </td>
 <td width="33%" align="center">
-<img src="media_pics/thingspeak_telegram/telegram_anomaly_log.jpeg" width="63%"><br>
+<img src="media_pics/thingspeak_telegram/telegram_pic.jpeg" width="63%"><br>
 <sub><b>Anomaly score</b> alerted live on Telegram</sub>
 </td>
 </tr>

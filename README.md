@@ -279,8 +279,6 @@ See results in the [Gallery](#-gallery) below.
 <p align="center"><i>Hardware circuit (left) · Pin-to-pin mapping (right)</i></p>
 
 <p align="center">
-<img src="media_pics/Flowcharts_Circuit_Misc/Hardware_Setup_Labeled.jpeg" width="65%">
-</p>
 <p align="center"><i>Numbered bring-up rig — ESP32 gateway (2), ST-Link/UART bridges (3, 11), sensor breakout modules (4, 5, 8, 9, 10, 13, 14), power bank supply (7), and USB/Ethernet interconnects (1, 6, 12)</i></p>
 
 </details>

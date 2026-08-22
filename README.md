@@ -4,20 +4,23 @@
 
 # 🛡️ RansomShield
 
-### Hardware-Rooted Ransomware Detection for Embedded Systems
+### Hardware-Rooted Ransomware Detection 
 
 *Secure boot you can trust. Detection that runs at the edge. Alerts that reach your phone in seconds.*
-
+<div align="center">
+  
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 ![MCU](https://img.shields.io/badge/MCU-STM32WB55-03234B?logo=stmicroelectronics&logoColor=white)
 ![Gateway](https://img.shields.io/badge/Gateway-ESP32-E7352C?logo=espressif&logoColor=white)
 ![Crypto](https://img.shields.io/badge/Crypto-ECDSA--P256%20%7C%20ECDH-6E56CF)
 [![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE%202.0-blue.svg?logo=stmicroelectronics&logoColor=white)](IDE)
 ![AI](https://img.shields.io/badge/AI-On--Device%20Inference-00A67E)
-![Status](https://img.shields.io/badge/Status-Hardware%20Validated-success)
+![Status](https://img.shields.io/badge/Status-Hardware%20Validated-success-white.svg)
 ![RTOS](https://img.shields.io/badge/RTOS-Freertos-green.svg)
-![Drivers](https://img.shields.io/badge/Drivers-Bare%20Metal-black.svg)
-<sub>Built and validated on real hardware — oscilloscope-verified DSP, live-signal analysis, and end-to-end encrypted telemetry.</sub>
+![Drivers](https://img.shields.io/badge/Drivers-Bare%20Metal-yellow.svg)
+<sub>
+
+Built and validated on real hardware — oscilloscope-verified DSP, live-signal analysis, and end-to-end encrypted telemetry.</sub>
 
 </div>
 

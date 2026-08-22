@@ -15,7 +15,7 @@
 ![Crypto](https://img.shields.io/badge/Crypto-ECDSA--P256%20%7C%20ECDH-6E56CF)
 [![IDE](https://img.shields.io/badge/IDE-STM32CubeIDE%202.0-blue.svg?logo=stmicroelectronics&logoColor=white)](IDE)
 ![AI](https://img.shields.io/badge/AI-On--Device%20Inference-00A67E)
-![Status](https://img.shields.io/badge/Status-Hardware%20Validated-success-white.svg)
+![Status](https://img.shields.io/badge/Status-Hardware%20Validated-white.svg)
 ![RTOS](https://img.shields.io/badge/RTOS-Freertos-green.svg)
 ![Drivers](https://img.shields.io/badge/Drivers-Bare%20Metal-yellow.svg)
 <sub>
